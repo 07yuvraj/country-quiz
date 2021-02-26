@@ -38,7 +38,10 @@
 
 .result{
   box-shadow: var(--box-shadow);
-  padding: 2%;
+  padding-top: 3%;
+  padding-left: 12%;
+  padding-right: 12%;
+  padding-bottom: 3%;
 }
 
 .correct{
