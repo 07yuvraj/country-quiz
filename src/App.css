@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+  font-family: sans-serif;
+  margin: 10px;
+  padding-top: 2%;
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-bottom: 2%;
+}
+
+@media (max-width : 640px){
+  .App {
+    text-align: center;
+    font-family: sans-serif;
+    margin: 10px;
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 2%;
+  }
+}
+
+:root {
+  --box-shadow: 0 1px 3px rgba(15, 14, 14, 0.12), 0 1px 1px rgba(0, 0, 0, 0.24);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.QuestionCard{
+  box-shadow: var(--box-shadow);
+  padding-top: 3%;
+  padding-left: 12%;
+  padding-right: 12%;
+  padding-bottom: 3%;
+}
+
+.result{
+  box-shadow: var(--box-shadow);
+  padding: 2%;
+}
+
+.correct{
+  border: 5px solid rgb(27, 214, 52);
+  background-color: rgb(109, 235, 126);
+  display: block;
+  font-size: 16px;
+  margin: 10px 0 30px;
+  padding: 10px;
+  width: 100%;
+  box-shadow: var(--box-shadow);
+  cursor: pointer;
+}
+
+.incorrect{
+  border: 5px solid rgb(250, 54, 54); 
+  background-color: rgb(252, 102, 102);
+  display: block;
+  font-size: 16px;
+  margin: 10px 0 30px;
+  padding: 10px;
+  width: 100%;
+  box-shadow: var(--box-shadow);
+  cursor: pointer;
+}
+
+.btn {
+  cursor: pointer;
+  background-color: #fff;
+  box-shadow: var(--box-shadow);
+  color: #000;
+  border: 2px solid #9c88ff;
+  display: block;
+  font-size: 16px;
+  margin: 10px 0 30px;
+  padding: 10px;
+  width: 100%;
+}
+
+.btn-hove:hover {
+  background-color: #9c88ff;
+}
+
+.btn2{
+  cursor: pointer;
+  background-color: #fff;
+  box-shadow: var(--box-shadow);
+  color: #000;
+  border: 2px solid #9c88ff;
+  display: block;
+  font-size: 12px;
+  margin: 10px 0 30px;
+  padding: 10px;
+  width: 30%;
+}
+
+.btn2:hover {
+  background-color: #9c88ff;
+}
+
+
+.flag-img{
+  width: 80px;
+  height: 80px;
+}
+
+
