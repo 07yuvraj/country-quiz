@@ -26,7 +26,7 @@ function App() {
   const [choice, setChoice] = useState(1);
   useEffect(() => {
     let val, rand;
-    axios.get("https://restcountries.eu/rest/v2/all")
+    axios.get("https://restcountries.com/v2/all")
       .then(res => {
         val = res.data;
         rand = Math.floor(Math.random() * 250 + 1);
